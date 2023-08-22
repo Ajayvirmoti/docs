@@ -40,3 +40,11 @@ Or, you can simply use `git pull` to perform both commands at once:
 $ git pull origin YOUR_BRANCH_NAME
 # Grabs online updates and merges them with your local work
 ```
+
+If above thing does not work follow this 
+
+```shell
+$ git add .
+$ git commit -m "Your commit message here"
+$ git push -f origin <branch-name>
+```
